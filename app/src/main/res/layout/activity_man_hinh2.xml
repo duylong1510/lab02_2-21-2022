@@ -8,6 +8,46 @@
     tools:context=".man_hinh2">
 
     <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/star_5"
+        tools:layout_editor_absoluteX="186dp"
+        tools:layout_editor_absoluteY="227dp" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/star_5"
+        tools:layout_editor_absoluteX="53dp"
+        tools:layout_editor_absoluteY="227dp" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/star_5"
+        tools:layout_editor_absoluteX="122dp"
+        tools:layout_editor_absoluteY="227dp" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/star_5"
+        tools:layout_editor_absoluteX="253dp"
+        tools:layout_editor_absoluteY="227dp" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/star_5"
+        tools:layout_editor_absoluteX="318dp"
+        tools:layout_editor_absoluteY="227dp" />
+
+    <ImageView
         android:id="@+id/imageView5"
         android:layout_width="107dp"
         android:layout_height="96dp"
@@ -23,14 +63,60 @@
         android:text="USB Bluetooth Music Receiver HJX-001- Biến loa thường thành loa bluetooth"
         android:textColor="#000000"
         android:textSize="18sp"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         tools:layout_editor_absoluteY="54dp" />
 
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cực kỳ hài lòng"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="123dp"
+        tools:layout_editor_absoluteY="178dp" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="304dp"
+        android:layout_height="56dp"
+        android:gravity="center"
+        android:text="TextView"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="53dp"
+        tools:layout_editor_absoluteY="326dp"
+        tools:text="thêm hình ảnh" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="376dp"
+        android:layout_height="194dp"
+        android:text="TextView"
+        android:textSize="24sp"
+        android:textStyle="italic"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="389dp"
+        tools:text="Hãy chi sẻ những điều mà bạn thích về sản phẩm" />
+
     <ImageView
-        android:id="@+id/imageView6"
-        android:layout_width="418dp"
-        android:layout_height="34dp"
-        app:srcCompat="@drawable/rectangle_32"
-        tools:layout_editor_absoluteX="-3dp"
-        tools:layout_editor_absoluteY="166dp" />
+        android:id="@+id/imageView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/camera_1"
+        tools:layout_editor_absoluteX="72dp"
+        tools:layout_editor_absoluteY="342dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="320dp"
+        android:layout_height="58dp"
+        android:text="Button"
+        app:backgroundTint="#3F51B5"
+        tools:layout_editor_absoluteX="47dp"
+        tools:layout_editor_absoluteY="663dp" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
